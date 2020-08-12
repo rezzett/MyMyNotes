@@ -1,4 +1,5 @@
 from tkinter import *
+from task import Task
 
 root = Tk()
 root.geometry("800x600")
@@ -11,12 +12,6 @@ frame = Frame(root)
 frame.pack()
 
 tasks = []
-
-
-class Task:
-
-    def __init__(self, content):
-        self.content = content
 
 
 def tasks_list_view(tasks_list):
